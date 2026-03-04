@@ -5,7 +5,7 @@ const Home = () => {
     <div className="animate-fadeIn px-4 sm:px-6 lg:px-8">
       <header className="py-12 sm:py-16 md:py-20 lg:py-24 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 md:mb-6 bg-gradient-to-r from-primary via-primary/90 to-accent bg-clip-text text-transparent tracking-tight">
-          Welcome to Marybro
+          Welcome to 👌Marybro!
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl text-text-muted mb-8 md:mb-10 max-w-xl sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
