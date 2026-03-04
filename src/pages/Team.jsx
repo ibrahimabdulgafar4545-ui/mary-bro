@@ -2,10 +2,10 @@ import React from 'react';
 
 const Team = () => {
   const teamMembers = [
-    { name: 'Alice Johnson', age: 28, city: 'San Francisco', role: 'Developer' },
-    { name: 'Bob Smith', age: 35, city: 'New York', role: 'Designer' },
-    { name: 'Carol Williams', age: 31, city: 'Chicago', role: 'Manager' },
-    { name: 'David Brown', age: 26, city: 'Austin', role: 'Analyst' },
+    { name: 'Abdulgafar Ibrahim', age: 28, city: 'San Francisco', role: 'Developer' },
+    { name: 'Ololade Qozeem', age: 35, city: 'New York', role: 'Designer' },
+    { name: 'Fawaz Shola ', age: 31, city: 'Lagos', role: 'Manager' },
+    { name: 'David Akindele', age: 26, city: 'Ilorin', role: 'Analyst' },
   ];
 
   return (
