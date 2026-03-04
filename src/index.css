@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #0d9488;
+    --color-primary-hover: #0f766e;
+    --color-bg: #f0f9ff;
+    --color-text: #1e3a8a;
+    --color-text-muted: #64748b;
+    --color-card-bg: #ffffff;
+    --color-border: #cbd5e1;
+    --color-nav-bg: rgba(255, 255, 255, 0.8);
+}
+
+@layer base {
+    body {
+        @apply bg-bg text-text font-sans antialiased;
+    }
+}
+
+@layer utilities {
+    .text-gradient {
+        background: linear-gradient(to right, #6366f1, #a855f7);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease-out;
+}
