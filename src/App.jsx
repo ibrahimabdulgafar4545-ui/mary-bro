@@ -22,7 +22,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="info" element={<Info />} />
         <Route path="reach" element={<ReachOut />} />
-        <Route path="profile" element={<Profile name="Larry price" age={25} city="New York" />} />
+        <Route path="profile" element={<Profile name="Qozeem Ibrahim" age={25} city="Kwara State" />} />
         <Route path="team" element={<Team />} />
         <Route path="local-storage" element={<LocalStorage />} />
         <Route path="why-state-management" element={<WhyStateManagement />} />
